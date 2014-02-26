@@ -1,6 +1,14 @@
-asside 
+aside 
 {
 	float: right;
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	color:#00CCCC;
 }
+
+aside#noside {
+	float: center;
+}
+body
+{
+
+background-image:url("../images/url-1.jpg")}
