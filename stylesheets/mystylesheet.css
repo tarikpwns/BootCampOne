@@ -51,9 +51,20 @@ aside
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	color:#00CCCC;
 }
+ul{
+	list-style: square;
+	color: red
+}
+
+h1
+{
+	color: #00CCCC}
 
 aside#noside {
 	float: center;
+}
+aside#noside:hover{
+	color: red;
 }
 body
 {
@@ -63,4 +74,21 @@ background-size: 100%;
 section#sidebar
 {
 	float:right;
+}
+.center{
+	margin-right:auto;
+	margin-left:auto;
+}
+a:hover{
+	color: red;
+	background-color:black;
+}
+a:link{
+	color:pink;
+}
+a:active{
+	color:red;
+}
+p:hover{
+	color:blue;
 }
